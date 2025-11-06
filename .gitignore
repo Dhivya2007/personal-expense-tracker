@@ -1,0 +1,31 @@
+# Compiled class files
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Database files
+*.db
+*.sqlite
+moneymaster.db
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore everything in root except src and .gitignore
+/*
+!/src/
+!/.gitignore
